@@ -24,9 +24,6 @@ DEVICE_NAME := mh2lm
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
-# common flash
-$(call inherit-product, device/lge/flash-common/flash.mk)
-
 PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/commonsys-intf/display
 
